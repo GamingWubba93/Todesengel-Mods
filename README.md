@@ -6,17 +6,21 @@ The Interstellar Habitation Coalition has approved the necessary funding for the
 
 https://steamcommunity.com/sharedfiles/filedetails/?id=1332103888
 
-## Tiers 
+## Domes 
 
 Tier 1: Starter Dome – Starts unlocked
 
-Tier 2: Medium Dome - Can be built once the Medium Dome has been researched (Low G Engineering) and is found in the Domes category.
+Tier 2: Medium Dome - Can be built once the Medium Dome has been researched (Low G Engineering).
 
-Tier 3: Mega Dome - Can be built once the Mega Dome has been researched (Gravity Engineering) and is found in the Domes category.
+Tier 3: Mega Dome - Can be built once the Mega Dome has been researched (Gravity Engineering).
 
-Tier 4: Oval Dome - Can be built once the Oval Dome Breakthrough has been researched (Multispiral Architecture) or (Localized Terraforming Technology) and is found in the Domes category.
+Tier 4: Oval Dome - Can be built once the Oval Dome Breakthrough has been researched (Multispiral Architecture) or (Localized Terraforming Technology).
 
-Tier 5: Geoscape Dome - Can be built once the Geoscape Dome has been researched (Localized Terraforming Technology) and is found in the Domes category.
+Tier 5: Geoscape Dome - Can be built once the Geoscape Dome has been researched (Localized Terraforming Technology).
+
+## Oxygen Production
+
+## Power Production
 
 ## Save Game Compatibility 
 It should be safe to install for a running game. Before removing this mod, I suggest you scrap all buildings added by this mod.
@@ -25,10 +29,5 @@ Technology unlock will take your researched technologies into account when loadi
 ## Mod Compatibility 
 Most likely compatible with anything as this only adds new buildings.
 
-## Known Issues 
-- None
-
 ## Mod Roadmap 
 - https://trello.com/b/wKsZGN9Y/emergency-dome-tiers-development
-- https://strawpoll.com/rez92xw7
-https://steamcommunity.com/sharedfiles/filedetails/?id=1332103888
