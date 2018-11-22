@@ -1,4 +1,4 @@
-# Emergency-Dome-Tiers
+# ISHC2 (2.3.x)
 
 The Interstellar Habitation Coalition has approved the necessary funding for the Mars Colony Habitation Project. This funding grants you the necessary equipment to indefinitely sustain a colony on Mars. This funding has drastically reduced the building cost for your first starter Dome however; due to the basic blueprints the upkeep has slightly been increased. The Coalition has provided unlockable blueprints and urges you to develop improved habitats at your earliest convenience.
 
