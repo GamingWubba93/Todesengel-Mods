@@ -29,8 +29,7 @@ Tier 5: Geoscape Dome - Can be built once the Geoscape Dome has been researched 
 # Production
 
 # Economy
-*Human behavior is economic behavior. The particulars may vary but competition for limited resources remains a constant. Need as well as greed has followed us to the stars and the rewards of wealth still await those wise enough to recognize this deep thrumming of our common pulse.*
-- Sid Meier's Alpha Centauri
+*Human behavior is economic behavior. The particulars may vary but competition for limited resources remains a constant. Need as well as greed has followed us to the stars and the rewards of wealth still await those wise enough to recognize this deep thrumming of our common pulse.* -- Sid Meier's Alpha Centauri
 
 ## Powerful management tool
 Martian Economy gives you **intuitive, elegant** and **effective** tools to **fine-tune** your colony!
