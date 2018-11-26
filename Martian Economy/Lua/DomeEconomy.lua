@@ -1,3 +1,5 @@
+-- ========== THIS IS AN AUTOMATICALLY GENERATED FILE! ==========
+
 function Dome:GetAverageWage()
   local wage_sum, wage_earners, average_wage = 0, 0, 0
   local colonists = self.labels.Colonist

@@ -1,3 +1,5 @@
+-- ========== THIS IS AN AUTOMATICALLY GENERATED FILE! ==========
+
 local PlaceWealthButton = function(wealth_level, wealth_type)
   local IdName = "idWealthButton"..tostring(wealth_level)  -- skirichs code to add
   return PlaceObj

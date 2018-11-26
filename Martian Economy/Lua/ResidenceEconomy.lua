@@ -1,3 +1,5 @@
+-- ========== THIS IS AN AUTOMATICALLY GENERATED FILE! ==========
+
 function NewChooseResidence(unit)
   local is_child = unit.traits.Child
   local buildings = unit.city.labels.Residence or empty_table

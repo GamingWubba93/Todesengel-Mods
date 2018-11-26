@@ -1,3 +1,5 @@
+-- ========== THIS IS AN AUTOMATICALLY GENERATED FILE! ==========
+
 -- Add the field to the colonist summary where age/specialization/dome/etc are.
 local function AddWagesToColonistView()
     local XT = XTemplates.ipColonist[1][5] or empty_table

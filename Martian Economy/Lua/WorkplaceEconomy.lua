@@ -1,3 +1,5 @@
+-- ========== THIS IS AN AUTOMATICALLY GENERATED FILE! ==========
+
 local OldOnChangeWorkshift = Workplace.OnChangeWorkshift
 
 Workplace.OnChangeWorkshift = function(workplace, old, new)  

@@ -1,3 +1,5 @@
+-- ========== THIS IS AN AUTOMATICALLY GENERATED FILE! ==========
+
 -- EMIGRATION
 function Workplace:GetFreeSlots()
   if self.active_shift > 0 then

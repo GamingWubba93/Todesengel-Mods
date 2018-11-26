@@ -1,3 +1,5 @@
+-- ========== THIS IS AN AUTOMATICALLY GENERATED FILE! ==========
+
 function CanServiceEmployed(service, unit)
   local is_child = unit.traits.Child
   if is_child and not service.usable_by_children or not is_child and service.children_only then

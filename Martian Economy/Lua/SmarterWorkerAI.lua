@@ -1,3 +1,5 @@
+-- ========== THIS IS AN AUTOMATICALLY GENERATED FILE! ==========
+
 VanillaChooseWorkplace = ChooseWorkplace
 ChooseWorkplace = function(unit, workplaces, allow_exchange)
   spec_workplaces = { }
