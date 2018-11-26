@@ -29,16 +29,16 @@ Tier 5: Geoscape Dome - Can be built once the Geoscape Dome has been researched 
 # Production
 
 # Economy
-[i] Human behavior is economic behavior. The particulars may vary but competition for limited resources remains a constant. Need as well as greed has followed us to the stars and the rewards of wealth still await those wise enough to recognize this deep thrumming of our common pulse. [/i]
+[i]Human behavior is economic behavior. The particulars may vary but competition for limited resources remains a constant. Need as well as greed has followed us to the stars and the rewards of wealth still await those wise enough to recognize this deep thrumming of our common pulse.[/i]
 - Sid Meier's Alpha Centauri
 
-[h1]Powerful management tool[/h1]
-Martian Economy gives you [b] intuitive, elegant [/b] and [b] effective [/b] tools to [b] fine-tune [/b] your colony!
+## Powerful management tool
+Martian Economy gives you [b]intuitive, elegant[/b] and [b]effective[/b] tools to [b]fine-tune[/b] your colony!
 Have you ever wanted to restrict your Arcologies, Electronic Shops or Smart Homes to your most precious workers? Or maybe ban the non-specialists from them? 
 Martian Economy lets you do [b] just that! [/b] And it's really [b] simple [/b]!
 
-[h1]Wages, rents & prices[/h1]
-With this mod your all workplaces have [b] Wage Level [/b], while Residences have [b] Rents Level [/b] and Service buildings have [b] Prices Level[/b].
+## Wages, rents & prices
+With this mod your all workplaces have [b]Wage Level[/b], while Residences have [b]Rents Level[/b] and Service buildings have [b]Prices Level[/b].
 
 Colonists will only use buildings with Prices / Rents [b] lower [/b] or [b] equal [/b] to their Wages.
 
