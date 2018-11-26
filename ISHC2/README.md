@@ -10,9 +10,9 @@ Reason for this mod: I got tired of copying and pasting functions between differ
 
 ## Steam Workshop
 
-[ISHC2] https://steamcommunity.com/sharedfiles/filedetails/?id=1332103888
+- https://steamcommunity.com/sharedfiles/filedetails/?id=1332103888
 
-[Library] https://steamcommunity.com/sharedfiles/filedetails/?id=1566222315
+- https://steamcommunity.com/sharedfiles/filedetails/?id=1566222315
 
 # Domes 
 
@@ -50,4 +50,4 @@ Technology unlock will take your researched technologies into account when loadi
 Most likely compatible with anything as this only adds new buildings.
 
 ## Mod Roadmap 
-- https://trello.com/b/wKsZGN9Y/emergency-dome-tiers-development
+- https://trello.com/b/wKsZGN9Y/ishc2-development
