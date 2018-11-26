@@ -1,0 +1,15 @@
+return PlaceObj('ModDef', {
+	'title', "ISHC2 (2.3.x)",
+	'image', "Images/ISHC2 Preview Image.png",
+	'id', "tJ4TtfS",
+	'steam_id', "1332103888",
+	'author', "Obersturmbannführer Todesengel",
+	'version', 483,
+	'lua_revision', 237920,
+	'code', {"Code/DroneRangeIncrease.lua","Code/ISHC2_1Init.lua","Code/IncreasedDomeWorkArea.lua","Code/ColonistEconomy.lua","Code/DomeEconomy.lua","Code/ResidenceEconomy.lua","Code/ServiceEconomy.lua","Code/WorkplaceEconomy.lua","Code/EconomyUI.lua"},
+	'saved', 1543206512,
+	'TagGameplay', true,
+	'TagBuildings', true,
+	'TagResearch', true,
+	'TagCosmetics', true,
+})
