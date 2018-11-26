@@ -8,7 +8,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1332103888
 
 ## Domes 
 
-Tier 1: Starter Dome – Starts unlocked
+Tier 1: Emergency Dome – Starts unlocked
 
 Tier 2: Medium Dome - Can be built once the Medium Dome has been researched (Low G Engineering).
 
