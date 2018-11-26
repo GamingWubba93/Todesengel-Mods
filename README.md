@@ -6,7 +6,7 @@ The Interstellar Habitation Coalition has approved the necessary funding for the
 
 https://steamcommunity.com/sharedfiles/filedetails/?id=1332103888
 
-## Domes 
+# Domes 
 
 Tier 1: Emergency Dome – Starts unlocked
 
@@ -18,13 +18,17 @@ Tier 4: Oval Dome - Can be built once the Oval Dome Breakthrough has been resear
 
 Tier 5: Geoscape Dome - Can be built once the Geoscape Dome has been researched (Localized Terraforming Technology).
 
-## Life Support
+# Life Support
 
-# Oxygen Production
+## Oxygen Production
+
+## H2O Production
 
 # Power Production
 
-##
+# Production
+
+# Economy
 
 ## Save Game Compatibility 
 It should be safe to install for a running game. Before removing this mod, I suggest you scrap all buildings added by this mod.
