@@ -19,3 +19,17 @@ Also, all workers get a modifier to their **Comfort** and **Morale** when paid. 
 - Unemployed taking your **Smart Homes**? Increase the Rent Level to 2 and watch them go away!
 - Too few **Machine Parts**? Increase the wages of factory workers and roll in them!
 - Too many **Renegades**? Need loyal security officers? Pay them good and watch their Morale raise!
+
+# Smart Workers
+Specialists will **only** work outside of their respective field if there are **no** free slots in the dome for their specialization. Then and only then will they look for work elsewhere. Simple as that and much more effective than the default workers!
+
+# Smart Migration
+Specialists not working in their profession will migrate as soon as there will be an open slot in workplace of their specialization in any nearby dome. They will also migrate if they find a workplace matching their specialization where non-specialists work.
+
+# Cases for Migration
+- Specialist going to specialized work - a specialist has found out that he can migrate to a dome where he would be a better worker than some non-specialist in a specialized workplace. Non-specialist is kicked out from this workplace in result. He also gives his residence to the specialist.
+- Homeless going to a dome, which has residence.
+- Unemployed going to a dome, which has BOTH work & residence.
+- Children and not-working seniors migrating according to the filters - these groups are controlled only by the filter and residence availability
+
+**For all these cases domes' filters have to be at least equal.**
