@@ -1,5 +1,3 @@
-				          ========== THIS IS AN AUTOMATICALLY GENERATED FILE! ==========
-
 return {
 PlaceObj('ModItemCode', {
 	'name', "ColonistEconomy",
