@@ -31,7 +31,7 @@ PlaceObj('ModItemBuildingTemplate', {
 	'electricity_consumption', 5000,
 	'enabled_shift_3', false,
 	'max_workers', 10,
-	'FundingPerDay', 60000000,
+	'FundingPerDay', 15000000000,
 }),
 PlaceObj('ModItemCode', {
 	'name', "ColonistEconomy",
