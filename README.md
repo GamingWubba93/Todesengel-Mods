@@ -22,6 +22,12 @@ Tier 5: Geoscape Dome - Can be built once the Geoscape Dome has been researched 
 
 ## Oxygen Production
 
+Adsorption Oxygen Plant - Oxygen plants are industrial systems designed to generate oxygen. They typically use air as a feedstock and separate it from other components of air using pressure swing adsorption or membrane separation techniques. Such plants are distinct from cryogenic separation plants which separate and capture all the components of air. Produces Oxygen at an increased production rate (+5 O2 p/h). Can be upgraded with Magnetic Filtering to increase the production rate (+10 O2 p/h).
+
+Cryogenic Oxygen Plant - A Cryogenic Oxygen Plant is an industrial facility that creates molecular oxygen at relatively high purity.  Oxygen is the most common element in the Earth's crust and the second largest industrial gas. This process was pioneered by Dr. Carl von Linde in 1902.
+
+Membrane Oxygen Plant - Oxygen plants are industrial systems designed to generate oxygen. They typically use air as a feedstock and separate it from other components of air using pressure swing adsorption or membrane separation techniques. Such plants are distinct from cryogenic separation plants which separate and capture all the components of air. Produces Oxygen at an increased production rate (+10 O2 p/h). Can be upgraded with Magnetic Filtering to increase the production rate (+15 O2 p/h).
+
 ## H2O Production
 
 # Power Production
