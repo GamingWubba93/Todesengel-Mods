@@ -17,6 +17,6 @@ end
 
 -- Populate the field.
 function Colonist:GetUIWorkplaceWages()
-    local wages = self.workplace.wages_level * 10
+    local wages = (self.workplace.wages_level + 1) * 10
     return "$"..wages.."/hr"
 end
