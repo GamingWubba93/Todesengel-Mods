@@ -1,0 +1,15 @@
+return PlaceObj('ModDef', {
+	'title', "ISHC2 (2.3.x)",
+	'image', "Images/ISHC2 Preview Image.png",
+	'id', "tJ4TtfS",
+	'steam_id', "1332103888",
+	'author', "Obersturmbannführer Todesengel",
+	'version', 500,
+	'lua_revision', 237920,
+	'code', {"Code/DroneRangeIncrease.lua","Code/ISHC2_1Init.lua","Code/IncreasedDomeWorkArea.lua"},
+	'saved', 1543219870,
+	'TagGameplay', true,
+	'TagBuildings', true,
+	'TagResearch', true,
+	'TagCosmetics', true,
+})
