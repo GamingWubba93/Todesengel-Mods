@@ -1,3 +1,5 @@
+-- ========== THIS IS AN AUTOMATICALLY GENERATED FILE! ==========
+
 local ApplyOutsideModifier = function()
 	g_Consts:UpdateModifier("add", Modifier:new({
           prop = "DefaultOutsideWorkplacesRadius",

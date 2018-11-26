@@ -1,3 +1,5 @@
+-- ========== THIS IS AN AUTOMATICALLY GENERATED FILE! ==========
+
 function DroneRangeIncreaseModBegin()--	DroneRangeIncreaseModBegin()-- CreateGameTimeThread function()
 	const.CommandCenterMaxRadius = 50
 	for i,v in ipairs(DroneHub.properties) do

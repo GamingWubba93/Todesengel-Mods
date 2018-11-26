@@ -1,3 +1,5 @@
+-- ========== THIS IS AN AUTOMATICALLY GENERATED FILE! ==========
+
 local mod_name = "ISHC2 (2.3.x)"
 local steam_id = "1332103888"
 
