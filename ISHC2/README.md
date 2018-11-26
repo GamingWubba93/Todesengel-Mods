@@ -2,9 +2,16 @@
 
 The Interstellar Habitation Coalition has approved the necessary funding for the Mars Colony Habitation Project. This funding grants you the necessary equipment to indefinitely sustain a colony on Mars. This funding has drastically reduced the building cost for your first starter Dome however; due to the basic blueprints the upkeep has slightly been increased. The Coalition has provided unlockable blueprints and urges you to develop improved habitats at your earliest convenience.
 
+# OT's Essentials
+
+Contains stuff needed by most of my mods.
+The load order for my library in relation to my mods should not be an issue.
+Reason for this mod: I got tired of copying and pasting functions between different mods to update them, now I just update this mod for those functions.
+
 ## Steam Workshop
 
-https://steamcommunity.com/sharedfiles/filedetails/?id=1332103888
+[ISHC2] https://steamcommunity.com/sharedfiles/filedetails/?id=1332103888
+[Library] https://steamcommunity.com/sharedfiles/filedetails/?id=1566222315
 
 # Domes 
 
