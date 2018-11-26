@@ -18,9 +18,13 @@ Tier 4: Oval Dome - Can be built once the Oval Dome Breakthrough has been resear
 
 Tier 5: Geoscape Dome - Can be built once the Geoscape Dome has been researched (Localized Terraforming Technology).
 
-## Oxygen Production
+## Life Support
 
-## Power Production
+# Oxygen Production
+
+# Power Production
+
+##
 
 ## Save Game Compatibility 
 It should be safe to install for a running game. Before removing this mod, I suggest you scrap all buildings added by this mod.
