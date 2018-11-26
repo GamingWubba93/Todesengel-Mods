@@ -523,4 +523,52 @@ PlaceObj('ModItemBuildingTemplate', {
 	'air_consumption', 3000,
 	'DailySanityRecoverDome', 2000,
 }),
+PlaceObj('ModItemCode', {
+	'name', "DroneRangeIncrease",
+	'comment', "50 hexes",
+	'FileName', "Code/DroneRangeIncrease.lua",
+}),
+PlaceObj('ModItemCode', {
+	'name', "ISHC2_1Init",
+	'FileName', "Code/ISHC2_1Init.lua",
+}),
+PlaceObj('ModItemCode', {
+	'name', "IncreasedDomeWorkArea",
+	'comment', "15 hexes",
+	'FileName', "Code/IncreasedDomeWorkArea.lua",
+}),
+PlaceObj('ModItemCode', {
+	'name', "ColonistEconomy",
+	'FileName', "Code/ColonistEconomy.lua",
+}),
+PlaceObj('ModItemCode', {
+	'name', "DomeEconomy",
+	'FileName', "Code/DomeEconomy.lua",
+}),
+PlaceObj('ModItemCode', {
+	'name', "ResidenceEconomy",
+	'FileName', "Code/ResidenceEconomy.lua",
+}),
+PlaceObj('ModItemCode', {
+	'name', "ServiceEconomy",
+	'FileName', "Code/ServiceEconomy.lua",
+}),
+PlaceObj('ModItemCode', {
+	'name', "WorkplaceEconomy",
+	'FileName', "Code/WorkplaceEconomy.lua",
+}),
+PlaceObj('ModItemCode', {
+	'name', "EconomyUI",
+	'FileName', "Code/EconomyUI.lua",
+}),
+PlaceObj('ModItemGameValue', {
+	'category', "Workplace",
+	'id', "DefaultOutsideWorkplacesRadius",
+	'amount', 5,
+}),
+PlaceObj('ModItemGameValue', {
+	'category', "Colonist",
+	'id', "Other_gender_chance",
+	'amount', -1,
+}),
 }
