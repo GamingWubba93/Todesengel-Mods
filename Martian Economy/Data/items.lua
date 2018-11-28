@@ -1,40 +1,4 @@
--- ========== THIS IS AN AUTOMATICALLY GENERATED FILE! ==========
-
 return {
-PlaceObj('ModItemBuildingTemplate', {
-	'Group', "Dome Services",
-	'Id', "FirstBankOfMars",
-	'template_class', "CorporateOffice",
-	'pin_rollover_hint', T{924348866467, --[[ModItemBuildingTemplate FirstBankOfMars pin_rollover_hint]] "<image UI/Infopanel/left_click.tga 1400> Select"},
-	'pin_rollover_hint_xbox', T{316371111452, --[[ModItemBuildingTemplate FirstBankOfMars pin_rollover_hint_xbox]] "<image UI/PS4/Cross.tga> View"},
-	'construction_cost_Concrete', 30000,
-	'construction_cost_Metals', 10000,
-	'construction_cost_Electronics', 10000,
-	'dome_required', true,
-	'upgrade1_mod_prop_id_3', "max_workers",
-	'upgrade1_mul_value_3', -100,
-	'upgrade1_consumption_type', 4,
-	'maintenance_resource_type', "Electronics",
-	'maintenance_resource_amount', 2000,
-	'display_name', T{822673899873, --[[ModItemBuildingTemplate FirstBankOfMars display_name]] "First Bank of Mars"},
-	'display_name_pl', T{423559237130, --[[ModItemBuildingTemplate FirstBankOfMars display_name_pl]] "First Bank of Mars"},
-	'description', T{696097558869, --[[ModItemBuildingTemplate FirstBankOfMars description]] "Generates funding. Working in a corporate environment can be soul-sucking so all workers take Comfort penalties."},
-	'build_category', "Dome Services",
-	'display_icon', "UI/Icons/Buildings/corporate_office.tga",
-	'build_pos', 15,
-	'entity', "CorporateOffice",
-	'encyclopedia_id', "CorporateOffice",
-	'encyclopedia_image', "UI/Encyclopedia/CorporateOffice.tga",
-	'label1', "InsideBuildings",
-	'palette_color1', "inside_accent_factory",
-	'palette_color2', "mining_accent_1",
-	'demolish_sinking', range(5, 10),
-	'demolish_debris', 80,
-	'electricity_consumption', 5000,
-	'enabled_shift_3', false,
-	'max_workers', 10,
-	'FundingPerDay', 15000000000,
-}),
 PlaceObj('ModItemCode', {
 	'name', "ColonistEconomy",
 	'FileName', "Code/ColonistEconomy.lua",
@@ -54,6 +18,11 @@ PlaceObj('ModItemCode', {
 PlaceObj('ModItemCode', {
 	'name', "ResidenceEconomy",
 	'FileName', "Code/ResidenceEconomy.lua",
+}),
+PlaceObj('ModItemCode', {
+	'name', "InflationEconomy",
+	'comment', "Import Price Fluction (5%) every 10 Sols",
+	'FileName', "Code/InflationEconomy.lua",
 }),
 PlaceObj('ModItemCode', {
 	'name', "ServiceEconomy",
