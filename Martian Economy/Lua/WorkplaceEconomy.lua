@@ -12,7 +12,7 @@ Workplace.OnChangeWorkshift = function(workplace, old, new)
       local avg_wage = dome:GetAverageWage()
       local effect = (workplace.wages_level - avg_wage) * 2 * const.Scale.Stat
       
-      worker:ChangeComfort(effect, "Received wage ")
+      worker:ChangeComfort(effect, "Received wage")
       
       local display_text
       if effect > 0 then 
