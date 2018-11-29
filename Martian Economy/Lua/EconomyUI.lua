@@ -38,39 +38,56 @@ local PlaceWealthButton = function(wealth_level, wealth_type)
       function(self, gamepad)
         local building = ResolvePropObj(self.context)
 
-        if wealth_type == "wages" then building.wages_level = wealth_level end
-        if wealth_type == "rents" then building.rents_level = wealth_level end
-        if wealth_type == "prices" then building.prices_level = wealth_level end
+        if wealth_type == "wages" then
+					building.wages_level = wealth_level
+				elseif wealth_type == "rents" then
+					building.rents_level = wealth_level
+				elseif wealth_type == "prices" then
+					building.prices_level = wealth_level
+				end
 
         ObjModified(building)
       end,
       "OnContextUpdate",
       function(self, context)
         local building = ResolvePropObj(self.context)
-        if building.wages_level == nil then building.wages_level = 0 end
-        if building.rents_level == nil then building.rents_level = 0 end
-        if building.prices_level == nil then building.prices_level = 0 end
 
-        if wealth_type == "wages" and building.wages_level >= wealth_level then self:SetImage("UI/Infopanel/infopanel_workshift_active.tga") end
-        if wealth_type == "wages" and building.wages_level < wealth_level then self:SetImage("UI/Infopanel/infopanel_workshift_stop.tga") end
+				building.wages_level = building.wages_level or 0
+				building.rents_level = building.rents_level or 0
+				building.prices_level = building.prices_level or 0
 
-        if wealth_type == "rents" and building.rents_level >= wealth_level then self:SetImage("UI/Infopanel/infopanel_workshift_active.tga") end
-        if wealth_type == "rents" and building.rents_level < wealth_level then self:SetImage("UI/Infopanel/infopanel_workshift_stop.tga") end
+        if wealth_type == "wages" then
+					if building.wages_level >= wealth_level then
+						self:SetImage("UI/Infopanel/infopanel_workshift_active.tga")
+					else
+						self:SetImage("UI/Infopanel/infopanel_workshift_stop.tga")
+					end
+				elseif wealth_type == "rents" then
+					if wealth_level == 0 then
+						for i = #building.colonists, 1, -1 do
+							local resident = building.colonists[i]
+							if resident.workplace and resident.workplace.wages_level == nil then resident.workplace.wages_level = 0 end
+							if (building.rents_level > 0 and not resident.workplace)
+							or (resident.workplace and resident.workplace.wages_level < building.rents_level) then
+								resident:SetResidence(false)
+								resident:UpdateResidence()
+							end
+						end
+					else
+						if building.rents_level >= wealth_level then
+							self:SetImage("UI/Infopanel/infopanel_workshift_active.tga")
+						else
+							self:SetImage("UI/Infopanel/infopanel_workshift_stop.tga")
+						end
+					end
+				elseif wealth_type == "prices" then
+					if building.prices_level >= wealth_level then
+						self:SetImage("UI/Infopanel/infopanel_workshift_active.tga")
+					else
+						self:SetImage("UI/Infopanel/infopanel_workshift_stop.tga")
+					end
+				end
 
-        if wealth_type == "prices" and building.prices_level >= wealth_level then self:SetImage("UI/Infopanel/infopanel_workshift_active.tga") end
-        if wealth_type == "prices" and building.prices_level < wealth_level then self:SetImage("UI/Infopanel/infopanel_workshift_stop.tga") end
-
-        if wealth_type == "rents" and wealth_level == 0 then
-          for i = #building.colonists, 1, -1 do
-            local resident = building.colonists[i]
-            if resident.workplace and resident.workplace.wages_level == nil then resident.workplace.wages_level = 0 end
-            if (building.rents_level > 0 and not resident.workplace)
-            or (resident.workplace and resident.workplace.wages_level < building.rents_level) then
-              resident:SetResidence(false)
-              resident:UpdateResidence()
-            end
-          end
-        end
       end,
       "Image",
       "UI/Infopanel/infopanel_workshift_time.tga",
